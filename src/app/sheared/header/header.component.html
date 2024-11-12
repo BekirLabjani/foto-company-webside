@@ -1,0 +1,17 @@
+<nav>
+<div class="company-name"><span>Foto Doncev</span></div>
+<div class="webside-Links">
+ <div>
+ @for (links of navigationLink; track $index) {
+ 
+  <div class="link">
+    <div *ngIf="activeLinkIndex === $index" class="orange-line-active"></div>
+
+    <a [href]="links.linkComponent" class="my-links">
+      {{ links.text }}
+    </a>
+  </div>
+}
+ </div>
+</div>
+</nav>

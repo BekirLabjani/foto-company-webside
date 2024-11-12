@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+}
+
+/* braah-one-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Braah One';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/braah-one-v6-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  /* calistoga-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Calistoga';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./assets/fonts/calistoga-v16-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
